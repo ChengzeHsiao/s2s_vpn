@@ -2,15 +2,15 @@
 
 # 设置输入参数-按照实际信息填写VPN本端和对端的配置信息
 #VPN连接名称，如aws/oracle/op/project等
-DEST=$CONNECTION-memverge
+DEST=$CONNECTION-NAME
 #本端VPN服务器公网IP
-LEFT=$LEFT-139.196.178.207
+LEFT=$LEFT-VM-PUBLIC-IP
 #本端子网，多个子网用空格分开
-LEFT_SUBNET='{172.16.0.0/12}'
+LEFT_SUBNET='{LEFT-SUBNET1 LEFT-SUBNET2}'
 #对端VPN服务器或设备公网IP
 RIGHT=$RIGHT-VM-PUBLIC-IP
 #对端子网，多个子网用空格分开
-RIGHT_SUBNET='{172.16.0.0/12}'
+RIGHT_SUBNET='{RIGTH-SUBNET1 RIGHT-SUBNET2}'
 #PSK秘钥-设置秘钥，比如Welcome123!
 VPNPSK=Welcome123!
 # 结束输入参数设置-下述配置无需修改

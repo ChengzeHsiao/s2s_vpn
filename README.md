@@ -2,7 +2,7 @@
 
 ## Step 1
 
-download this installation scipt to local
+download this installation script to local
 
 ## Step 2
 

@@ -1,4 +1,4 @@
-# s2s_vpn Installation script
+# s2s_vpn installation script
 
 ## Step 1
 

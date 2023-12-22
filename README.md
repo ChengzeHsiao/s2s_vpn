@@ -10,7 +10,7 @@ VPC 具有挂载的虚拟私有网关，您的本地（远程）网络内包括�
 
 ### Step 1
 
-download this installation script to local
+Download this installation script to local
 
 ### Step 2
 
